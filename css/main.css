@@ -29,6 +29,11 @@
     color: rgb(255, 255, 255);
 }
 
+.main__top-item:hover {
+    transition: all 0.3s;
+    transform: scale(1.06);
+}
+
 .main__bottom {
     
 }
@@ -38,7 +43,7 @@
     max-width: 100%;
     border-radius: 15px;
     opacity: 0.8;
-    box-shadow: 0 0 20px 3px rgba(255, 255, 255, 0.438);
+    box-shadow: 0 0 20px 3px rgba(248, 109, 109, 0.438);
 }
 
 .form-input {
