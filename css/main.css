@@ -3,6 +3,7 @@
     justify-content: space-around;
     gap: 40px;
     color: rgba(255, 255, 255, 0.623);
+    letter-spacing: 2px;
 }
 
 .main__left {
