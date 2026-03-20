@@ -119,15 +119,23 @@ body {
 
 .form-input {
     display: block;
+    width: 100%;
+    line-height: 2;
+    padding: 0 3px;
+    border-radius: 5px;
+    max-width: 400px;
 }
 
 .main__middle {
-    display: flex;
-    justify-content: start;
     margin-bottom: 20px;
-    padding: 0 12px;
+    padding: 10px;
+    background-color: rgb(47, 0, 255);
+    margin: 0 12px 12px 12px;
+    border-radius: 8px;
 }
 
 .main__midlle-form {
-    background: white;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 8px;
 }
