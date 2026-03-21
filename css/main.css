@@ -45,6 +45,7 @@
     border-radius: 15px;
     opacity: 0.8;
     box-shadow: 0 0 20px 3px rgba(248, 109, 109, 0.438);
+    animation: pulse 2.5s infinite;
 }
 
 .form-input {
@@ -77,4 +78,19 @@
 
 .form-item {
     margin-bottom: 10px;
+}
+
+@keyframes pulse {
+    0%, 100% { 
+        box-shadow: 
+            0 0 5px 6px rgba(148, 26, 26, 0.438), 
+            0 0 10px 5px rgba(248, 109, 109, 0.438), 
+            0 0 15px 5px rgba(206, 45, 45, 0.438);
+    }
+    50% { 
+        box-shadow:
+            0 0 10px 3px rgba(148, 26, 26, 0.438),
+            0 0 20px 3px rgba(248, 109, 109, 0.438),
+            0 0 30px 3px rgba(207, 32, 32, 0.438);
+    }
 }
